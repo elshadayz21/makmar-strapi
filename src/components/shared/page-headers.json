@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_page_headers",
+  "info": {
+    "displayName": "page_headers"
+  },
+  "options": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_desc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

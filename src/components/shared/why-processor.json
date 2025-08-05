@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_why_processors",
+  "info": {
+    "displayName": "why_processor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

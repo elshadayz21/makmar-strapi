@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "list_values": {
+      "type": "component",
+      "component": "shared.bullet-points",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

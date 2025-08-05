@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navigation_logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "partners_header": {
+      "type": "component",
+      "component": "shared.page-headers",
+      "repeatable": false
+    },
+    "header_logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "About_section_Globe_Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "statsSection": {
+      "type": "component",
+      "component": "shared.stats-section",
+      "repeatable": true
+    },
+    "partners_slider_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Get_In_Touch_CTA": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": false
+    }
+  }
+}

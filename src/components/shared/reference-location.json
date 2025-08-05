@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_reference_locations",
+  "info": {
+    "displayName": "referenceLocation"
+  },
+  "options": {},
+  "attributes": {
+    "reference": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

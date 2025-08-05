@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactHeader": {
+      "type": "component",
+      "component": "shared.page-headers",
+      "repeatable": false
+    },
+    "findUsMap": {
+      "type": "component",
+      "component": "shared.page-headers",
+      "repeatable": false
+    },
+    "contactInfo": {
+      "type": "component",
+      "component": "shared.contact-info",
+      "repeatable": false
+    },
+    "socialLink": {
+      "type": "component",
+      "component": "shared.social-media",
+      "repeatable": true
+    }
+  }
+}

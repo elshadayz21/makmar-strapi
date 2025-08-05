@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service_header": {
+      "type": "component",
+      "component": "shared.page-headers",
+      "repeatable": false
+    },
+    "services_CTA": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": false
+    },
+    "services_Card": {
+      "type": "component",
+      "component": "shared.card",
+      "repeatable": true
+    },
+    "service_Process_Header": {
+      "type": "component",
+      "component": "shared.why-processor",
+      "repeatable": false
+    },
+    "service_process_card": {
+      "type": "component",
+      "component": "shared.service-process-card",
+      "repeatable": true
+    }
+  }
+}

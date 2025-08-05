@@ -12,12 +12,30 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "about_page_header": {
+      "type": "component",
+      "component": "shared.page-headers",
+      "repeatable": false
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "vision_mission_card": {
+      "type": "component",
+      "component": "shared.service-process-card",
+      "repeatable": true
+    },
+    "why_MakMar": {
+      "type": "component",
+      "component": "shared.why-processor",
+      "repeatable": false
+    },
+    "why_chose_MakMar_Card": {
+      "type": "component",
+      "component": "shared.service-process-card",
+      "repeatable": true
+    },
+    "Global_Trading_Network": {
+      "type": "component",
+      "component": "shared.service-process-card",
+      "repeatable": false
     }
   }
 }

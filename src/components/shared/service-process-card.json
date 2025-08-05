@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_service_process_cards",
+  "info": {
+    "displayName": "service_process_card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "step": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

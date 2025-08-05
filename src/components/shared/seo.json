@@ -20,7 +20,14 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "global_CTA": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": false
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_footer_contents",
+  "info": {
+    "displayName": "footer_content"
+  },
+  "options": {},
+  "attributes": {
+    "footer_desc": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
