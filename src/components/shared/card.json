@@ -8,9 +8,6 @@
     "title": {
       "type": "string"
     },
-    "icon": {
-      "type": "string"
-    },
     "desc": {
       "type": "text"
     },
@@ -18,6 +15,16 @@
       "type": "component",
       "component": "shared.bullet-points",
       "repeatable": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   },
   "config": {}

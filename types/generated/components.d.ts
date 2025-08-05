@@ -28,7 +28,10 @@ export interface SharedCard extends Struct.ComponentSchema {
   };
   attributes: {
     desc: Schema.Attribute.Text;
-    icon: Schema.Attribute.String;
+    icon: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     list_values: Schema.Attribute.Component<'shared.bullet-points', true>;
     title: Schema.Attribute.String;
   };
@@ -191,7 +194,8 @@ export interface SharedSocialMedia extends Struct.ComponentSchema {
   };
   attributes: {
     icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    socialLink: Schema.Attribute.String;
+    socialLink: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'https://'>;
     title: Schema.Attribute.String;
   };
 }

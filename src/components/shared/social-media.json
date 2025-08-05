@@ -6,7 +6,8 @@
   "options": {},
   "attributes": {
     "socialLink": {
-      "type": "string"
+      "type": "string",
+      "default": "https://"
     },
     "title": {
       "type": "string"
