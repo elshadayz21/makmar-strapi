@@ -107,6 +107,7 @@ export interface SharedPageHeaders extends Struct.ComponentSchema {
     displayName: 'page_headers';
   };
   attributes: {
+    CTA_on_homepage_header: Schema.Attribute.Component<'shared.buttons', true>;
     page_desc: Schema.Attribute.Text;
     page_title: Schema.Attribute.String;
   };

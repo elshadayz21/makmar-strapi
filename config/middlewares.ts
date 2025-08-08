@@ -14,12 +14,15 @@
 
 module.exports = [
   'strapi::errors',
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: ['http://localhost:5011', 'https://your-frontend-domain.com',"http://localhost:4173"],
-    },
+{
+  name: 'strapi::cors',
+  config: {
+    origin: (ctx) => ctx.request.header.origin, // allow any origin dynamically
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    headers: '*',
+    credentials: true, // default is true
   },
+},
   'strapi::security',
   'strapi::poweredBy',
   'strapi::logger',
